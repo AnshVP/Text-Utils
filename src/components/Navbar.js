@@ -12,7 +12,7 @@ export default function Navbar(props) {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
@@ -28,10 +28,10 @@ export default function Navbar(props) {
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><a className="dropdown-item" href="/">Something else here</a></li>
                                 </ul>
-                            </li>
-                            <li className="nav-item">
+                            </li> */}
+                            {/* <li className="nav-item">
                                 <a className="nav-link disabled" href="/" tabIndex="-1" aria-disabled="true">Disabled</a>
-                            </li>
+                            </li> */}
                             <li className="nav-item"><button className="btn btn-light mx-2" onClick={props.changeTheme} value="Theme1">Theme1</button></li>
                             <li className="nav-item"><button className="btn btn-secondary mx-2" onClick={props.changeTheme} value="Theme2">Theme2</button></li>
                             <li className="nav-item"><button className="btn btn-danger mx-2" onClick={props.changeTheme} value="Theme3">Theme3</button></li>

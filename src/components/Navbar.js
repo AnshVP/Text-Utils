@@ -32,10 +32,10 @@ export default function Navbar(props) {
                             {/* <li className="nav-item">
                                 <a className="nav-link disabled" href="/" tabIndex="-1" aria-disabled="true">Disabled</a>
                             </li> */}
-                            <li className="nav-item"><button className="btn btn-light mx-2" onClick={props.changeTheme} value="Theme1">Theme1</button></li>
-                            <li className="nav-item"><button className="btn btn-secondary mx-2" onClick={props.changeTheme} value="Theme2">Theme2</button></li>
-                            <li className="nav-item"><button className="btn btn-danger mx-2" onClick={props.changeTheme} value="Theme3">Theme3</button></li>
-                            <li className="nav-item"><button className="btn mx-2" onClick={props.changeTheme} style={{ backgroundColor: "rgb(180, 66, 255)" }} value="Theme4">Theme4</button></li>
+                            <li className="nav-item"><button className="btn btn-light mx-1" onClick={props.changeTheme} value="Theme1">Theme1</button>
+                            <button className="btn btn-secondary mx-1" onClick={props.changeTheme} value="Theme2">Theme2</button>
+                            <button className="btn btn-danger mx-1" onClick={props.changeTheme} value="Theme3">Theme3</button>
+                            <button className="btn mx-1" onClick={props.changeTheme} style={{ backgroundColor: "rgb(180, 66, 255)" }} value="Theme4">Theme4</button></li>
                         </ul>
                         <form className="d-flex">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
